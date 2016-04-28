@@ -1,0 +1,2 @@
+pos	met1_1	tot1_1	met1_2	tot1_2	met1_3	tot1_3	met2_1	tot2_1	met2_2	tot2_2	met2_3	tot2_3	
+470	0	0	5	6	0	0	0	0	0	0	0	0	
