@@ -44,7 +44,6 @@ Options:
                            each sample, default 5
 *  --cov1 arg               The covariates file of treatment condition 1
 *  --cov2 arg               The covariates file of treatment condition 2
-*  -p [ --P_value ] arg     Calculate p-value or not
 
 License
 -------
