@@ -12,7 +12,7 @@ https://www.stat.auckland.ac.nz/people/ywen123
 
 Installation
 *Before attempting to compile GetisDMR please make sure that GNU Scientific 
-Library (http://www.gnu.org/software/gsl/) and the statistical software R are installed on your system*
+Library (http://www.gnu.org/software/gsl/) and the statistical software R are installed on your system.*
 you need to install Rcpp, RInside, Rarmardillo and know the location.
 
 Compiling
