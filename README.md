@@ -6,7 +6,7 @@ GetisDMR: Detection differentially methylated region in whole genome bisulfite s
 Contact Information
 -------------------
 Fushun Chen
-chen_fushun@126.com
+fushunchenarvin@gmail.com
 
 Installation
 * Before attempting to compile GetisDMR please make sure that GNU Scientific Library (http://www.gnu.org/software/gsl/), the statistical software R and boost library are installed on your system.
