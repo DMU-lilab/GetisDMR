@@ -5,17 +5,14 @@ GetisDMR: Detection differentially methylated region in whole genome bisulfite s
 
 Contact Information
 -------------------
-
-Yalu Wen
-y.wen@auckland.ac.nz
-https://www.stat.auckland.ac.nz/people/ywen123
+Fushun Chen
+chen_fushun@126.com
 
 Installation
-*Before attempting to compile GetisDMR please make sure that GNU Scientific 
-Library (http://www.gnu.org/software/gsl/) and the statistical software R are installed on your system.*
-you need to install Rcpp, RInside, Rarmardillo and know the location.
+*Before attempting to compile GetisDMR please make sure that GNU Scientific Library (http://www.gnu.org/software/gsl/), the statistical software R and boost library are installed on your system.
+*You need to install Rcpp, RInside, Rarmardillo.
 
-Compiling
+Compiling (Example)
 
 g++ GetisDMR_p_value.cpp FindFileHome.cpp FindDMR.cpp SplitString.cpp compare2Prop.cpp Getis_Ord.cpp RealDataMain.cpp one_vs_one.cpp BetaBinomialReg.cpp multi_vs_multi.cpp regression.cpp -I /usr/lib64/R/include/ -I ~/armadillo-5.100.2/include/ -I /usr/lib64/R/library/Rcpp/include/ -I /usr/lib64/R/library/RInside/include/ -I /usr/local/include/gsl/ -L /usr/local/lib/ -lgsl -lgslcblas -lm -std=c++11 -o3 -pipe -g -Wall /usr/lib64/libboost_program_options.so -lboost_system -lboost_filesystem -L /usr/lib64/R/lib -lR -lblas -llapack -L /usr/lib64/R/library/RInside/lib/ -lRInside -Wl,-rpath,/usr/lib64/R/library/RInside/lib -o GetisDMR
 
@@ -24,8 +21,8 @@ Usage
 
 Basic Command Line Parameters
 Options:
-  -h [ --help ]            Print help messages
-  -c [ --Comparison ] arg  1: 1 vs 1 (no biological replicates) 
+*  -h [ --help ]            Print help messages
+*  -c [ --Comparison ] arg  1: 1 vs 1 (no biological replicates) 
                            2: with biological replicates but no covariates 
                            3: biological replicates and covariates
   --input1 arg             The file including the locations of files under 
