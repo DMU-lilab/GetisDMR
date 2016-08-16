@@ -9,8 +9,8 @@ Fushun Chen
 chen_fushun@126.com
 
 Installation
-*Before attempting to compile GetisDMR please make sure that GNU Scientific Library (http://www.gnu.org/software/gsl/), the statistical software R and boost library are installed on your system.
-*You need to install Rcpp, RInside, Rarmardillo.
+* Before attempting to compile GetisDMR please make sure that GNU Scientific Library (http://www.gnu.org/software/gsl/), the statistical software R and boost library are installed on your system.
+* You need to install Rcpp, RInside, Rarmardillo.
 
 Compiling (Example)
 
@@ -25,26 +25,26 @@ Options:
 *  -c [ --Comparison ] arg  1: 1 vs 1 (no biological replicates) 
                            2: with biological replicates but no covariates 
                            3: biological replicates and covariates
-  --input1 arg             The file including the locations of files under 
+*  --input1 arg             The file including the locations of files under 
                            treatment condition 1
-  --input2 arg             The file including the locations of files under 
+*  --input2 arg             The file including the locations of files under 
                            treatment condition 2
-  -t [ --tolerance ] arg   tolerance
-  -l [ --length ] arg      length
-  --cutoff arg             cutoff
-  -o [ --outfiledir ] arg  The output folder: Default is the current folder
-  -s [ --sorted ] arg      The mtbr is sorted according to physical location
-  --CLINK_CPPFLAG arg      RcppArmadillo link
-  --MydistSoftware arg     MydistSoftware directory
-  --NewDistCppSoftware arg NewDistCppSoftware directory
-  --FindDMRfile arg        FindDMRSoftware.r directory
-  --sorted arg             If the mtbr is sorted according to physical 
+*  -t [ --tolerance ] arg   tolerance
+*  -l [ --length ] arg      length
+*  --cutoff arg             cutoff
+*  -o [ --outfiledir ] arg  The output folder: Default is the current folder
+*  -s [ --sorted ] arg      The mtbr is sorted according to physical location
+*  --CLINK_CPPFLAG arg      RcppArmadillo link
+*  --MydistSoftware arg     MydistSoftware directory
+*  --NewDistCppSoftware arg NewDistCppSoftware directory
+*  --FindDMRfile arg        FindDMRSoftware.r directory
+*  --sorted arg             If the mtbr is sorted according to physical 
                            position, currently not support un-sorted
-  --MINTOT arg             Minimum of the total number of reads required for 
+*  --MINTOT arg             Minimum of the total number of reads required for 
                            each sample, default 5
-  --cov1 arg               The covariates file of treatment condition 1
-  --cov2 arg               The covariates file of treatment condition 2
-  -p [ --P_value ] arg     Calculate p-value or not
+*  --cov1 arg               The covariates file of treatment condition 1
+*  --cov2 arg               The covariates file of treatment condition 2
+*  -p [ --P_value ] arg     Calculate p-value or not
 
 License
 -------
