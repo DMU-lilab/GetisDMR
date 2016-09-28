@@ -29,7 +29,7 @@ Options:
                            treatment condition 1
 *  --input2 arg             The file including the locations of files under 
                            treatment condition 2
-*  -t [ --tolerance ] arg   tolerance
+*  -t [ --tolerance ] arg   tolerance (i.e. the number of DMCs that does not meet the cutoff criteria)
 *  -l [ --length ] arg      length
 *  --cutoff arg             cutoff
 *  -o [ --outfiledir ] arg  The output folder: Default is the current folder
