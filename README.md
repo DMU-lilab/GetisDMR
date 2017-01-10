@@ -10,7 +10,7 @@ fushunchenarvin@gmail.com
 
 Installation
 * Before attempting to compile GetisDMR please make sure that GNU Scientific Library (http://www.gnu.org/software/gsl/), the statistical software R and boost library are installed on your system.
-* You need to install Rcpp, RInside, Rarmardillo.
+* You need to install Rcpp, RInside, Armadillo.
 
 Compiling (Example)
 
